@@ -28,7 +28,11 @@
                             <li class="px-5 py-2 mx-2 rounded-lg w-32 shadow-md bg-green-400 hover:bg-green-500">Blogs</li>
                         </router-link>
                     </ul>
-                    <p class="pt-4"><a class="dark:hover:text-slate-300 hover:text-slate-400" href="#">Click here to view my resume.</a></p>
+                    <p class="pt-4">
+                        <router-link class="dark:hover:text-slate-300 hover:text-slate-400" to="/resume">
+                            Click here to view my resume.
+                        </router-link>
+                    </p>
                 </div>
             </div>
         </div>
